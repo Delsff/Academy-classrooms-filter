@@ -1,0 +1,106 @@
+body {
+  padding: 20px;
+  background-color: darkgray;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  color: rgb(89, 89, 89);
+}
+.container__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+select {
+  font-family: "Roboto", sans-serif;
+  width: 150px;
+  height: 50px;
+  margin: 30px 120px 0 30px;
+  border-radius: 10px;
+  background-color: gray;
+  color: rgb(210, 203, 203);
+  padding-left: 8px;
+  cursor: pointer;
+}
+select option {
+  font-family: "Roboto", sans-serif;
+  border-radius: 12px;
+  color: rgb(210, 203, 203);
+  background-color: gray;
+}
+.input__facult {
+  margin: 30px 0 0 0;
+  gap: 3px;
+}
+input {
+  background-color: gray;
+  color: rgb(210, 203, 203);
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 8px;
+  padding-top: 4px;
+}
+input::placeholder {
+  font-family: "Roboto", sans-serif;
+  color: rgb(210, 203, 203);
+}
+.btn-filter {
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  width: 70px;
+  height: 48px;
+  color: rgb(210, 203, 203);
+  background-color: gray;
+  cursor: pointer;
+}
+.bth-sort {
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  width: 120px;
+  margin: 30px 0 0 100px;
+  color: rgb(210, 203, 203);
+  background-color: gray;
+  cursor: pointer;
+}
+form {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+input::placeholder {
+  font-family: "Roboto", sans-serif;
+}
+.classrooms_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+  color: rgb(210, 203, 203);
+}
+.classroom_card {
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+.main {
+  margin: 0 0 0 150px;
+  width: 1200px;
+  height: 500px;
+  border: 2px solid gray;
+  border-radius: 15px;
+  background-color: rgb(46, 46, 46);
+  border: 1px solid gray;
+}
